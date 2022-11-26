@@ -58,7 +58,7 @@ function Contact() {
               <ImLocation className="contactIcon" />
               <div className="contactLeftItemWrapper">
                 <h2>Our Office Address</h2>
-                <p>88, West Colony, Dt, Tirunelveli, Tamil Nadu 627604</p>
+                <p>88, West Colony, Dt, Komarapalayam, Tamil Nadu 638183</p>
               </div>
             </div>
             <div className="contactIconWrapper">

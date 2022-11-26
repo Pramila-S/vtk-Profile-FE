@@ -15,7 +15,7 @@ function Aboutus() {
               industry.
             </p>
             <p>
-              Located in Tirunelveli Dist, Tamil Nadu a textile town
+              Located in Komarapalayam, Namakkal Dist, Tamil Nadu a textile town
               situated on the banks of Cavery River. We remain dedicated to
               producing quality woven fabrics with cheese dyeing at the right
               price, fastest lead time and guranteed for quality!
