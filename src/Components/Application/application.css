@@ -1,0 +1,29 @@
+/* .application{
+  background-image: url("../../images/bg-texture.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.slideshow {
+  object-fit: contain !important;
+  height: 100%;
+
+}
+
+.slider-wrapper ul li {
+  object-fit: contain !important;
+  height: 800px;
+  width: 10px;
+}
+
+.slide-main{
+  margin-top: 30px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

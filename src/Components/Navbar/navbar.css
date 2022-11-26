@@ -1,0 +1,183 @@
+.container {
+  position: relative;
+  background-image: linear-gradient(
+      45deg,
+      rgba(245, 98, 40, 0.75),
+      rgba(8, 83, 156, 0.75)
+    ),
+    url("../../images/head.JPG");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  color: whitesmoke;
+  position: sticky;
+  top: 0;
+}
+
+.navLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navCenter {
+  display: flex;
+  /* justify-content: space-around; */
+  flex: 1;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.navRight {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+.navItem {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.centerContent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 39%;
+  top: 30%;
+}
+.FabsBrief{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+bold{
+  font-weight: 600;
+  font-size: 22px;
+  /* color: rgba(245, 98, 40, 0.75); */
+}
+.centerText {
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.centerBtn {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ef4d23;
+  color: white;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerTitle {
+  width: 80%;
+}
+
+.mobileNavContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .centerContent {
+    right: 35%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .centerContent {
+    right: 37%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .centerContent {
+    right: 29%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .centerContent {
+    right: 20%;
+    top: 40%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container {
+    display: none;
+  }
+  .mobileNavContainer {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(
+        45deg,
+        rgba(245, 98, 40, 0.75),
+        rgba(8, 83, 156, 0.75)
+      ),
+      url("../../images/head.JPG");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .mobileTopNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .mobileLogo {
+    margin: 15px;
+    width: 90px;
+    cursor: pointer;
+  }
+  .mobileNavItem {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .mobilecenterContent {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left: 18%;
+  }
+
+  .mobilecenterText {
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+  }
+
+  .mobilecenterBtn {
+    border: none;
+    background-color: #ef4d23;
+    color: white;
+    padding: 10px;
+    font-weight: 100;
+    border-radius: 10px;
+  }
+}
